@@ -24,7 +24,7 @@
         browserVersion = navigator.userAgent.match(/MSIE (\d+)/)[1];
       }
 
-      var message = "You are using " + browserName + " (Version " + browserVersion + ")";
+      var message = "You are using " + browserName + " (version " + browserVersion + ")";
       document.getElementById("browser-info").textContent = message;
     }
   
